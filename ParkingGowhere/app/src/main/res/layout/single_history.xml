@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:text="ADDRESS"
+            android:ellipsize="marquee"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:singleLine="true">
+        </TextView>
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            app:backgroundTint="#606060"
+            android:onClick="Remove"
+            android:background="@drawable/clear"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no"
+            android:text="CARPARK_NO"
+            android:textSize="12sp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
